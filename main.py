@@ -6,7 +6,7 @@ from astrbot.api import logger
 @register(
     "astrbot_plugin_auto_approve_all",
     "Developer",
-    "自动同意所有群邀请和好友申请",
+    "自动同意所有的群邀请和好友申请",
     "1.0.0",
     "https://github.com/Nahida364/astrbot_plugin_auto_approve_all",
 )
