@@ -4,11 +4,11 @@ from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 
 @register(
-    "auto_approve_all",
+    "astrbot_plugin_auto_approve_all",
     "Developer",
     "自动同意所有群邀请和好友申请",
     "1.0.0",
-    "https://github.com/your-repo/auto_approve_all",
+    "https://github.com/Nahida364/astrbot_plugin_auto_approve_all",
 )
 class AutoApproveAll(Star):
     def __init__(self, context: Context):
